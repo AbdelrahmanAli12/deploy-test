@@ -13,25 +13,9 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
-          name: frontend install
-          command: |
-            npm run frontend:install
-      - run:
-          name: frontend build
-          command: |
-            npm run frontend:build
-      - run:
           name: frontend deploy
           command: |
             npm run frontend:deploy
-      - run:
-          name: api install
-          command: |
-            npm run api:install
-      - run:
-          name: api build
-          command: |
-            npm run api:build
       - run:
           name: api deploy
           command: |

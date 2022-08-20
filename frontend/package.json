@@ -1,0 +1,12 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

@@ -1,13 +1,6 @@
 {
     "scripts": {
-        "frontend:install": "echo frontend install",
-        "frontend:build": "echo frontend build",
-        "frontend:deploy": "echo frontend deploy",
-        "frontend:test": "echo frontend test",
-        "api:install": "echo api install",
-        "api:build": "echo api build",
-        "api:deploy": "echo api deploy",
-        "api:test": "echo api test"
-    },
-    "devDependencies": {}
+        "frontend:deploy": "cd frontend && npm run deploy",
+        "api:deploy": "cd backend && npm run deploy"
+    }
 }
