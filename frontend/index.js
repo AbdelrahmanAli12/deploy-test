@@ -5,4 +5,4 @@ function btnFunc() {
     document.getElementById('paragraph').innerText = "clicked " + i + " times"
 }
 
-fetch("http://newapp-env.eba-qzchfd3n.us-east-1.elasticbeanstalk.com").then(res => res.json()).then(data => document.getElementById('data').innerText = data)
+fetch("http://newapp-env.eba-2nyd3gg8.us-east-1.elasticbeanstalk.com/").then(res => res.json()).then(data => document.getElementById('data').innerText = data)
