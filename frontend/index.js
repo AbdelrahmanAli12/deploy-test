@@ -3,7 +3,7 @@ let i = 0
 
 function btnFunc() {
     i++
-    console.log("clicked " + i + " times")
+    console.log("I clicked " + i + " times")
     document.getElementById('paragraph').innerText = "clicked " + i + " times"
 }
 
