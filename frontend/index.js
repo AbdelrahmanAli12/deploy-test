@@ -8,5 +8,5 @@ function btnFunc() {
 }
 
 function fetchData() {
-    fetch("http://newapp-env.eba-2nyd3gg8.us-east-1.elasticbeanstalk.com/").then(res => res.json()).then(data => document.getElementById('data').innerText = data.message)
+    fetch("http://newapp-env.eba-pzxr9rf3.us-east-1.elasticbeanstalk.com/").then(res => res.json()).then(data => document.getElementById('data').innerText = data.message)
 }
