@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
+    "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "build":"cp ./index.js ./www/index.js && cp ./package.json ./www/package.json  && cp ./package-lock.json ./www/package-lock.json"
   },
   "keywords": [],
   "author": "",
